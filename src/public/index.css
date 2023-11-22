@@ -167,3 +167,8 @@ footer a:hover {
 .credit input:checked ~ pre {
   display: block;
 }
+
+#quick-links a {
+  color: #ea0b0b;
+  font-size: 18px;
+}
