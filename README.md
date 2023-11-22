@@ -1,18 +1,7 @@
-<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/freedombrowser/Infrared/main/src/public/ir.png" height="200"></p>
 
-<h1 align="center">Ultraviolet-App</h1>
+<h1 align="center">Infrared Static</h1>
 
-The deployable all-in-one bundle for [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
+Freedombrowser's new main proxy, it still uses ultraviolet but we have switched to a static based frontend because it is much faster. The frontend is a fork of [titaniumnetwork-dev/Ultraviolet-App](https://github.com/titaniumnetwork-dev/Ultraviolet-App/) but we have and will modify and optimise it to better suit the need of a Freedombrowser user
 
-## Deployment
 
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Run-on-Replit)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-on-Railway)
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Remix-on-Glitch)
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-to-Koyeb)
-
-If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
-
-Additional information such as [customizing your frontend](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Customizing-your-frontend) can be found on the [wiki](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki).
-
-Support and updates can be found in our [Discord Server](discord.gg/unblock).
