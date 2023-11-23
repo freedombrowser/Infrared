@@ -26,8 +26,7 @@
     <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
     <script src="register-sw.js" defer></script>
-    <script src="search.js" defer></script>
-    <script src="index.js" defer></script>
+    <script src="error.js" defer></script>
 
   </head>
 
@@ -43,52 +42,18 @@
       <p>
         Infrared is a sophisticated proxy service made with Ultraviolet
         and TompHTTP Technologies.
-      </p>
-    </div>
-
-    <form id="uv-form" class="flex-center">
-      <input
-        id="uv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
-      <input id="uv-address" type="text" placeholder="Search or Enter URL" />
-    </form>
-
-    <div class="desc left-margin">
-      <p id="uv-error"></p>
-      <pre id="uv-error-code"></pre>
-    </div>
-    <div id="quick-links" class="flex-center">
-      <a href="/uv/service/hvtrs8/-ilvkdkows,ngrfvrn,dg/">Fast-Youtube (Invidious)</a>
+      </p><br>
 
     </div>
-    <!-- <footer>
-      <a
-        title="The TitaniumNetwork GitHub organization"
-        href="https://github.com/titaniumnetwork-dev"
-        >TitaniumNetwork</a
-      >
-      <a title="The TitaniumNetwork Discord" href="https://discord.gg/unblock"
-        >Discord</a
-      >
-      <a
-        title="The TompHTTP GitHub organization"
-        href="https://github.com/tomphttp"
-        >TompHTTP</a
-      >
-      <a
-        title="The official deployment repository for Ultraviolet"
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet-App"
-        >GitHub</a
-      >
-      <a
-        title="License information"
-        href="credits.html"
-        style="margin-left: auto"
-        >Credits</a
-      >
-      <span>&copy; Freedombrowser 2023</span>
-    </footer> -->
+  <div class="flex-center desc"><button onclick="buttonAction()" style="display: inline; text-align: center" id="uv-register-sw" value="Register service worker">
+    Connect to Freedombrowser Infrared
+  </button></div>
+  <script>
+    function buttonAction() {
+      window.location.href = "/"
+    }
+  </script>
+
+
   </body>
 </html>
